@@ -1,0 +1,10 @@
+1. first do all the process as root user - (sudo su -)
+2. wget  https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/[RELEASE]/jfrog-artifactory-oss-[RELEASE]-linux.tar.gz?_gl=1*1li7shh*_ga*NDE5NTQ4Mzk4LjE2NTc3OTg1NTM.*_ga_SQ1NR9VTFJ*MTY1Nzg3NzAzNi40LjEuMTY1Nzg3NzA4NS4xMQ..
+( through this link we are installing JFROG in the server)
+3. tar -zxf <file name> (untar process)
+4. cd artifactory.../
+5. ls
+6. cd app/
+7. ls
+8. cd bin/
+9. ./artifactoryctl
